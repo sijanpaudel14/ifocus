@@ -1,0 +1,326 @@
+* {
+     font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+
+}
+.nav-list{
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    height: 47px;
+
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 20px;
+}
+.nav-list li:hover{
+    text-decoration: none;
+    color:grey;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey;
+
+}
+.rightNav{
+    /* background-color: white; */
+    width: 30%;
+    text-align: right;
+   
+    padding: 0px 20px;
+}
+
+.logo  {
+ 
+    width: 17%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 55%;
+    width: 32%;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+    #search {
+        padding: 5px;
+        border-radius: 9px;
+        border: 1px solid grey;
+        font-size: 14px;
+        background: white;
+        bottom: 4px solid red;
+        color: white;
+        
+    }
+    .background {
+     
+        background-image:url("../bg.jpg");
+        height: 100%;
+        width: auto;
+        background-size:cover ;
+        background-blend-mode: darken;
+    
+    }
+    .second-image  {
+        height: 80%;
+        width: 70%;
+        border-radius: 94px;
+        border: 4px solid white;
+        display: block;
+        margin: auto;
+       
+    }
+    .box-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+       /* font-family: Ari al, Helvetica, sans-serif; */
+       max-width: 76%;
+       margin: auto;
+       height: 80%;
+    }
+    .firstsection {
+        height: 92vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .firsthalf{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        
+    } 
+    
+    .secondhalf{
+        height: 228px;
+    }
+    .text-big{
+        font-size: 31px;
+    }
+    .text-small{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .btn {
+        padding: 8px 14px;
+        margin: 10px 0px;
+        border-radius: 12px;
+        border: 1px solid white;
+        background: none;
+        cursor: pointer;
+        color: white;
+        font-size: 17px;
+        
+    }
+        
+    .btn-sm {
+        padding: 6px 13px;
+    margin: 12px 1px;
+    vertical-align: middle;
+    }
+    .btn:hover {
+     background-color: rgb(241, 208, 205);
+     color: rgb(224, 62, 62);
+    }
+    .btn1 {
+        color: black;
+    background: rgb(123, 246, 255);
+    font-size: 25px;
+    padding: 7px 24px;
+    margin: 0 121px 0 112px;
+    font-weight: bold;
+    font-family: arial;
+}
+    
+    .btn1:hover {
+        color: rgb(255, 0, 0);
+    }
+    .section {
+        display: flex;
+        align-items: center;
+     
+    /* flex-direction: column; */
+    max-width: 80%;
+    margin: auto;
+    }
+    .left {
+        flex-direction: row-reverse;
+    }
+    
+        
+    
+     .secRight .text-big {
+        padding: 193px 0px 0 0;
+     }
+     .secLeft .text-big {
+        padding: 193px 0px 0 0;
+     }
+     .para {
+         margin: 34px;
+     }
+     .thumbnail img{
+        width: 293px;
+        border-radius:14px;
+        margin-top: 22px;
+     }
+     
+     .type li {
+         font-size: 16px;
+        margin: 8px 37px;
+     }
+     .center{
+        text-align: center;
+        padding: 24px 0 27px 0;
+        font-size: 38px;
+    }
+     
+     .contact {
+        background-image: url(../bg3.jpg);
+       
+        background-size:cover;
+    background-color: #f3e6e6;
+    height: 828px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+
+     }
+     .contact-us{
+         display: flex;
+         flex-direction: column;
+     }
+     .margin,textarea {
+        padding: 5px 10px;
+        margin: 14px 0px;
+        width: 100%;
+        border: 2px solid grey;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+           
+             
+
+            /* }
+            /* .background{width: 1351px; */
+                /* .navlist{
+                    flex-direction: column;
+                }
+                body{
+                    width: 880px;
+                }
+            /* } */  
+            
+            @media only screen and (max-width: 1140px) {
+                .box-main{
+                    width: 82%;
+                }
+                .nav-list{
+                    flex-direction:column;
+                }
+                .navbar{
+                    position: relative;
+
+                }
+                .burger{
+   
+                    top: 15%;
+                    right: 53px;
+                  display: block;
+            }
+                .navbar{
+                    flex-direction: column;
+                }
+                .rightNav{
+                    width: 30%;
+                height: 42px;
+                margin: 0 117px 0 0;
+                 position: absolute;
+                 top: 305px;
+                text-align: right;
+                 padding: 0px 20px;
+                 display: flex;
+                 flex-direction: column;
+                    }
+                    #search{
+                        padding: 5px;
+    border-radius: 9px;
+    border: 1px solid grey;
+    width: 237px;
+    margin: 1px 0 10px 66px;
+    font-size: 14px;
+    /* margin: auto; */
+    background: white;
+    bottom: 4px solid red;
+    color: white;
+}
+.btn-sm{
+    margin: 10px 0 0 122px;
+}
+.firstsection{
+    height: 1188px;
+}
+
+.section{
+    flex-direction: column-reverse;
+}
+}
+                    
+                    @media only screen and (max-width: 741px){
+                        .btn-sm{
+                            width: 126px;
+                        }
+                       
+                    }
+                                   
+            
+     
+     
+     .footer {
+         text-align: center;
+         background-color: black;
+         color: white;
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+     .burger{
+         position: absolute;
+         top: 15%;
+         right: 53px;
+       display: none;
+     }
+     .line{
+         width: 603%;
+         background-color: white;
+         height: 4px;
+         margin: 3px 3px;
+     }
+  
+    
